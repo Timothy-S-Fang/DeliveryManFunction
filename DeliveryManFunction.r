@@ -105,16 +105,5 @@ findGoal <- function(packageMatrix) {
 
 # Find the move to get to carInfo$mem$goal
 nextMove <- function(trafficMatrix, carInfo, packageMatrix) {
-  print(carInfo$mem$goal)
-  if(carInfo$x < carInfo$mem$goal[1]) {
-    return(6)
-  } else if (carInfo$x > carInfo$mem$goal[1]) {
-    return(4)
-  } else if (carInfo$y < carInfo$mem$goal[2]) {
-    return(8)
-  } else if (carInfo$y > carInfo$mem$goal[2]) {
-    return(2)
-  } else {
-    return(5)
-  }
+  return 7
 }
