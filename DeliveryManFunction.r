@@ -105,5 +105,5 @@ findGoal <- function(packageMatrix) {
 
 # Find the move to get to carInfo$mem$goal
 nextMove <- function(trafficMatrix, carInfo, packageMatrix) {
-  return 7
+  return 8
 }
